@@ -1,0 +1,217 @@
+:root {
+    --bg-main: #0f172a; --bg-side: #1e293b; --card-bg: #1e293b;
+    --accent: #38bdf8; --danger: #f43f5e; --warning: #fbbf24;
+    --success: #10b981; --text-white: #f8fafc; --text-muted: #94a3b8;
+    --border: #334155;
+}
+
+body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg-main); color: var(--text-white); scroll-behavior: smooth; }
+.app-layout { display: flex; height: 100vh; overflow: hidden; }
+.sidebar { width: 260px; background: var(--bg-side); border-right: 1px solid var(--border); padding: 20px; transition: 0.3s; }
+.logo { font-size: 1.5rem; font-weight: 700; margin-bottom: 40px; color: var(--accent); }
+
+.menu-label { font-size: 0.7rem; font-weight: 700; color: var(--text-muted); margin: 20px 0 10px 10px; letter-spacing: 1px; text-transform: uppercase; }
+.menu-item { 
+    width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px;
+    background: transparent; color: var(--text-muted); border: none; text-align: left; 
+    cursor: pointer; display: flex; align-items: center; gap: 10px; transition: 0.3s;
+}
+.menu-item:hover { background: rgba(56, 189, 248, 0.1); color: var(--accent); transform: translateX(5px); }
+.menu-item.active { background: var(--accent); color: white; }
+
+.workspace { flex: 1; padding: 0; overflow-y: auto; }
+
+/* Landing Page & Cards */
+.hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%); }
+.section-padding { padding: 60px 40px; max-width: 1200px; margin: 0 auto; }
+.card { background: var(--card-bg); padding: 25px; border-radius: 15px; border: 1px solid var(--border); transition: 0.3s; position: relative; }
+.card:hover { transform: translateY(-10px); border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+
+/* Buttons */
+.btn-main { background: var(--accent); color: white; padding: 15px 35px; border-radius: 30px; border: none; font-weight: bold; cursor: pointer; transition: 0.3s; }
+.btn-main:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(56, 189, 248, 0.4); }
+
+.fade-in { animation: fadeIn 0.6s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Grids - تم تحديثها لتقبل التقسيم المرن التلقائي في الأجهزة المختلفة */
+.clo-section-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; margin-bottom: 25px; }
+.phase-visuals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 25px; }
+.kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 25px; }
+
+/* Tables & Tabs */
+.tabs-container { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+.tab-btn { padding: 10px 20px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-side); color: var(--text-muted); cursor: pointer; }
+.tab-btn.active { background: var(--accent); color: white; }
+
+/* تحديث غلاف الجدول لمنع تمدد الشاشة الجانبي في الجوال */
+.table-wrapper { background: var(--card-bg); border-radius: 12px; border: 1px solid var(--border); overflow-x: auto; width: 100%; }
+table { width: 100%; border-collapse: collapse; text-align: left; min-width: 700px; }
+th, td { padding: 15px; border-bottom: 1px solid var(--border); }
+.risk-tag { padding: 4px 8px; border-radius: 6px; font-weight: bold; font-size: 0.75rem; }
+
+@media print { .sidebar, .tabs-container { display: none !important; } .workspace { width: 100%; } }
+
+/* إضافات الـ Toggle Switch */
+.switch { position: relative; display: inline-block; width: 44px; height: 24px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #334155; transition: .4s; border-radius: 24px; }
+.slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%; }
+input:checked + .slider { background-color: var(--accent); }
+input:checked + .slider:before { transform: translateX(20px); }
+
+/* Neural Grid Background Animation */
+.neural-bg {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background-image: 
+        radial-gradient(circle at 2px 2px, rgba(56, 189, 248, 0.05) 1px, transparent 0);
+    background-size: 40px 40px;
+    animation: moveNeural 20s linear infinite;
+    z-index: 0;
+    pointer-events: none;
+}
+
+@keyframes moveNeural {
+    from { transform: rotate(0deg) translate(0, 0); }
+    to { transform: rotate(5deg) translate(40px, 40px); }
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+}
+
+/* Ensure the Landing Page layers correctly */
+.landing-page.hero {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+}
+
+#neuralCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Sits behind text */
+    pointer-events: none;
+}
+
+.hero .fade-in {
+    z-index: 10; /* Ensures buttons/text stay on top */
+}
+
+/* Enhancing Logo Appearance */
+.landing-page img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media print {
+    .sidebar, .tabs-container, .btn-main, #sidebar-menu {
+        display: none !important;
+    }
+    .content-area {
+        margin-left: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+    }
+    .card {
+        page-break-inside: avoid;
+        border: 1px solid #ccc !important;
+        background: #fff !important;
+        color: #000 !important;
+    }
+}
+
+/* تنسيق نص التلميح الذكي */
+.ai-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 6px;
+    color: var(--accent);
+    font-size: 0.9rem;
+}
+.ai-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 240px;
+    background-color: #020617;
+    color: #fff;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px;
+    position: absolute;
+    z-index: 99;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 1.3;
+}
+.ai-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ==========================================================================
+   قواعد التجاوب المضافة خصيصاً لدعم الجوالات والآيباد بدون التأثير على اللاب توب
+   ========================================================================== */
+@media screen and (max-width: 1024px) {
+    .sidebar { width: 220px; }
+}
+
+@media screen and (max-width: 768px) {
+    .app-layout {
+        flex-direction: column;
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .sidebar { 
+        width: 100%; 
+        box-sizing: border-box;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 15px;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .workspace { 
+        width: 100%;
+        padding: 0;
+    }
+
+    .section-padding {
+        padding: 25px 15px;
+    }
+
+    .landing-page h1 {
+        font-size: 3.2rem !important; 
+        letter-spacing: -1px !important;
+    }
+
+    .landing-page p {
+        font-size: 1.1rem !important;
+        padding: 0 10px;
+        margin-bottom: 30px !important;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+}

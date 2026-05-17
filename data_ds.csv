@@ -1,0 +1,61 @@
+StudentID;StudentName;Course;Section;Quiz1_10;Quiz2_10;Assignment_20;Project_30;Midterm_30;Final_40;Coursework_20;FinalWeighted_80;Total_100;GradeLetter;PassFlag;CLO1_Score_100;CLO2_Score_100;CLO3_Score_100;CLO1_Achieved_70plus;CLO2_Achieved_70plus;CLO3_Achieved_70plus;Attendance_Rate_P1;Attendance_Rate_P2;Attendance_Rate_P3;Engagement_P1;Engagement_P2;Delay_P1;Delay_P2;Period1_Score;Period2_Score;Period3_Score;Risk_P1;Risk_P2;Risk_P3;Risk_Response
+S001;Student_1;Data Structures;DS-A;6.3;6.4;13.2;21.1;20.5;40;13.5;80;93.5;A;1;64.3;69;91.4;0;0;1;97;90;100;100;86;0;12;78;73;91;Medium Risk;Medium Risk;Low Risk;Improved
+S002;Student_2;Data Structures;DS-B;4.9;8.5;12;26.8;25.1;40;15.5;80;95.5;A;1;64.7;82.5;95.5;0;1;1;94;94;88;87;94;0;20;69;82;94;Medium Risk;Low Risk;Low Risk;Improved
+S003;Student_3;Data Structures;DS-B;7.7;5.1;17.7;19.4;30;37.1;16;74.1;90.1;A;1;72.2;78.6;94.7;1;1;1;95;81;100;79;95;17;9;84;84;86;Low Risk;Low Risk;Low Risk;No Change
+S004;Student_4;Data Structures;DS-A;9.7;10;12.3;18.1;24.6;39.1;14.9;78.3;93.2;A;1;86.2;66.5;93.5;1;0;1;100;84;82;98;100;13;11;87;84;83;Low Risk;Low Risk;Low Risk;No Change
+S005;Student_5;Data Structures;DS-A;7.3;10;20;25.8;28.2;28.2;18.3;56.4;74.7;C;1;91;90.7;76.9;1;1;1;73;81;79;72;63;25;32;81;90;77;Low Risk;Low Risk;Medium Risk;Worsened
+S006;Student_6;Data Structures;DS-A;6.8;5.1;17.2;24.7;20.4;21.4;14.8;42.8;57.6;F;0;68.3;79.1;57.5;0;1;0;56;68;75;65;54;44;38;70;66;66;Medium Risk;Medium Risk;Medium Risk;No Change
+S007;Student_7;Data Structures;DS-B;9;9.1;12.9;30;30;30.2;18.2;60.4;78.6;C;1;81.8;93.5;82.2;1;1;1;91;78;71;83;74;34;24;81;84;82;Low Risk;Low Risk;Low Risk;No Change
+S008;Student_8;Data Structures;DS-B;2.5;5.5;15.7;21.6;10.5;40;11.2;80;91.2;A;1;52.8;63.1;82.3;0;0;1;97;99;87;90;85;3;9;68;65;89;Medium Risk;Medium Risk;Low Risk;Improved
+S009;Student_9;Data Structures;DS-A;6.7;10;15;23.1;17.2;17.1;14.4;34.2;48.6;F;0;80.7;71.3;46.7;1;1;0;45;51;49;40;66;57;52;60;70;54;Medium Risk;Medium Risk;High Risk;Worsened
+S010;Student_10;Data Structures;DS-B;5.2;10;16.5;17.3;17.7;28;13.3;56.1;69.4;D;1;78.2;62.5;67;1;0;0;74;64;65;54;73;29;23;66;75;65;Medium Risk;Medium Risk;Medium Risk;No Change
+S011;Student_11;Data Structures;DS-B;8.6;7.4;20;13.7;30;16.7;15.9;33.4;49.3;F;0;86.7;70.4;57.6;1;1;0;46;52;40;45;37;49;51;74;78;43;Medium Risk;Medium Risk;High Risk;Worsened
+S012;Student_12;Data Structures;DS-A;6.5;10;11.2;14.1;26.1;32.9;13.6;65.7;79.3;C;1;73.7;59.5;83.5;1;0;1;76;92;80;88;88;32;26;69;84;71;Medium Risk;Low Risk;Medium Risk;Mixed
+S013;Student_13;Data Structures;DS-B;5.8;6.9;9.5;25.3;22.4;39;14;78;92;A;1;58.2;75;91.3;0;1;1;94;92;84;94;100;16;23;69;74;91;Medium Risk;Medium Risk;Low Risk;Improved
+S014;Student_14;Data Structures;DS-B;7.3;6.4;18.4;17.1;16.3;22.1;13.1;44.1;57.2;F;0;76.3;62.6;55;1;0;0;42;70;61;45;68;51;52;67;68;57;Medium Risk;Medium Risk;High Risk;Worsened
+S015;Student_15;Data Structures;DS-B;5.1;6.6;16.3;28.6;26.2;28.7;16.6;57.4;74;C;1;66.2;90.6;76;0;1;1;60;53;67;76;59;39;48;67;72;78;Medium Risk;Medium Risk;Medium Risk;No Change
+S016;Student_16;Data Structures;DS-A;8;7.6;17.7;30;24.7;40;17.6;80;97.6;A;1;81.5;93.1;95.2;1;1;1;93;100;100;100;93;3;0;89;87;100;Low Risk;Low Risk;Low Risk;No Change
+S017;Student_17;Data Structures;DS-B;6.6;7.2;18.8;21.6;19.8;31.3;14.8;62.6;77.4;C;1;77.3;74.4;74.9;1;1;1;69;78;71;69;90;29;31;76;78;75;Medium Risk;Medium Risk;Medium Risk;No Change
+S018;Student_18;Data Structures;DS-A;7.2;8.4;16.3;30;15.1;22.1;15.4;44.2;59.6;F;0;79.2;83.1;53.9;1;1;0;62;57;57;61;53;37;42;71;65;69;Medium Risk;Medium Risk;Medium Risk;No Change
+S019;Student_19;Data Structures;DS-B;6.6;6.5;20;24.1;17.4;21.5;14.9;42.9;57.8;F;0;77;77.8;54.9;1;1;0;51;59;64;58;62;45;64;72;69;64;Medium Risk;Medium Risk;Medium Risk;No Change
+S020;Student_20;Data Structures;DS-A;9.8;9.9;13.4;28.6;25.3;15.9;17.4;31.8;49.2;F;0;88;87.2;51.9;1;1;0;40;40;40;38;57;49;43;65;73;56;Medium Risk;Medium Risk;High Risk;Worsened
+S021;Student_21;Data Structures;DS-B;7.8;10;17.3;21.9;25.9;38.2;16.6;76.4;92.9;A;1;88.2;79.1;93;1;1;1;100;91;95;96;84;8;0;89;89;89;Low Risk;Low Risk;Low Risk;No Change
+S022;Student_22;Data Structures;DS-B;9;6.8;13.7;27.8;24.4;26;16.3;52.1;68.4;D;1;75.5;85.2;69.5;1;1;0;67;71;79;74;68;38;26;76;73;76;Medium Risk;Medium Risk;Medium Risk;No Change
+S023;Student_23;Data Structures;DS-B;9;4.4;12.5;18.3;23.1;40;13.4;80;93.4;A;1;65.5;65.6;93.7;0;0;1;94;100;81;100;61;0;0;85;69;84;Low Risk;Medium Risk;Low Risk;Mixed
+S024;Student_24;Data Structures;DS-B;6.4;9.8;19.5;26.1;13.4;38.9;15;77.9;92.9;A;1;86.5;77.4;82.9;1;1;1;82;89;94;100;83;28;2;85;78;94;Low Risk;Medium Risk;Low Risk;Mixed
+S025;Student_25;Data Structures;DS-B;9.1;10;19.3;20.7;24.3;26.7;16.7;53.4;70.1;C;1;95.8;77.3;70.6;1;1;1;66;64;72;56;68;20;22;81;83;68;Low Risk;Low Risk;Medium Risk;Worsened
+S026;Student_26;Data Structures;DS-B;8.7;7.6;9.2;22.3;17.8;27.8;13.1;55.6;68.7;D;1;69.7;65.1;66.7;0;0;0;70;65;75;59;56;19;33;66;60;72;Medium Risk;Medium Risk;Medium Risk;No Change
+S027;Student_27;Data Structures;DS-B;8.6;4.8;12.5;26.2;24.3;38.2;15.3;76.5;91.7;A;1;65.5;81.1;91.5;0;1;1;82;99;82;97;100;20;12;80;76;90;Low Risk;Medium Risk;Low Risk;Mixed
+S028;Student_28;Data Structures;DS-B;7.2;8.7;18.2;23.9;26.8;33.2;16.9;66.4;83.3;B;1;83.3;84.4;84.7;1;1;1;86;86;73;88;69;25;35;84;86;80;Low Risk;Low Risk;Low Risk;No Change
+S029;Student_29;Data Structures;DS-A;7.1;10;20;22.6;19.9;34.1;15.9;68.3;84.2;B;1;90.3;77.4;80.1;1;1;1;79;80;88;89;80;22;25;85;84;83;Low Risk;Low Risk;Low Risk;No Change
+S030;Student_30;Data Structures;DS-B;9.6;3.3;14.3;26.6;17.9;18.8;14.3;37.6;52;F;0;66.8;77.6;50.5;0;1;0;50;56;54;91;53;54;42;78;55;61;Medium Risk;High Risk;Medium Risk;Mixed
+S031;Student_31;Data Structures;DS-B;10;9.2;16.3;27;30;39.2;18.5;78.4;96.9;A;1;91.2;91.2;98.5;1;1;1;92;98;99;100;100;3;0;93;94;96;Low Risk;Low Risk;Low Risk;No Change
+S032;Student_32;Data Structures;DS-B;6.3;7.2;11.3;16.1;26.1;25;13.4;50;63.4;D;1;63.8;63.3;69.2;0;0;0;78;71;66;75;49;28;42;66;70;61;Medium Risk;Medium Risk;Medium Risk;No Change
+S033;Student_33;Data Structures;DS-A;9.1;5.9;20;25.8;20.2;13.8;16.2;27.7;43.9;F;0;83.3;83.5;43.5;1;1;0;44;40;40;53;56;57;43;77;66;51;Medium Risk;Medium Risk;High Risk;Worsened
+S034;Student_34;Data Structures;DS-B;7.3;9.2;18.9;26.4;6;27.1;13.6;54.1;67.7;D;1;86.5;70.6;54.7;1;1;0;59;65;70;74;68;26;51;77;63;74;Medium Risk;Medium Risk;Medium Risk;No Change
+S035;Student_35;Data Structures;DS-B;9.6;4.8;20;19.2;23.7;35.4;15.5;70.8;86.2;B;1;81.3;74.6;85.9;1;1;1;93;83;89;83;76;24;26;94;77;81;Low Risk;Medium Risk;Low Risk;Mixed
+S036;Student_36;Data Structures;DS-B;8.9;8.7;19.6;24.9;27.8;40;18;80;98;A;1;91.3;88.4;98;1;1;1;88;86;92;100;100;1;0;94;93;93;Low Risk;Low Risk;Low Risk;No Change
+S037;Student_37;Data Structures;DS-B;10;10;20;16.4;30;29;17.3;58;75.3;C;1;100;75.3;80;1;1;1;77;78;90;68;77;16;8;89;93;71;Low Risk;Low Risk;Medium Risk;Worsened
+S038;Student_38;Data Structures;DS-B;2.4;8.4;19.4;30;19.9;21.4;16;42.7;58.8;F;0;68.3;90.3;57;0;1;0;43;61;63;56;53;38;55;56;73;69;High Risk;Medium Risk;Medium Risk;Improved
+S039;Student_39;Data Structures;DS-B;6.8;5.8;15.7;21.8;20.1;40;14;80;94;A;1;68.2;72.2;91;0;1;1;83;94;84;89;95;10;5;78;76;89;Medium Risk;Medium Risk;Low Risk;Improved
+S040;Student_40;Data Structures;DS-B;6;3.6;20;22.6;21.3;33.3;14.7;66.6;81.3;B;1;65.3;78.6;79.9;0;1;1;83;79;87;82;77;13;31;81;72;82;Low Risk;Medium Risk;Low Risk;Mixed
+S041;Student_41;Data Structures;DS-A;7.8;4.8;17.3;29;29;29.9;17.6;59.8;77.4;C;1;70.8;94.8;80.7;1;1;1;83;66;70;100;79;14;7;86;78;80;Low Risk;Medium Risk;Low Risk;Mixed
+S042;Student_42;Data Structures;DS-B;6.6;3.4;20;22.3;17;23.4;13.8;46.8;60.6;D;1;66.7;74.2;58;0;1;0;62;57;67;42;67;42;33;71;62;65;Medium Risk;Medium Risk;Medium Risk;No Change
+S043;Student_43;Data Structures;DS-A;6.7;10;14.1;26;23.3;24;16;47.9;64;D;1;79.2;81.3;64.8;1;1;0;63;61;73;71;80;38;36;68;79;71;Medium Risk;Medium Risk;Medium Risk;No Change
+S044;Student_44;Data Structures;DS-A;9.4;7.4;14.8;17.8;18.4;40;13.6;80;93.6;A;1;80.7;62.5;89.5;1;0;1;91;87;87;77;81;1;7;84;73;85;Low Risk;Medium Risk;Low Risk;Mixed
+S045;Student_45;Data Structures;DS-B;10;5.4;19.6;20.2;25.6;29.8;16.2;59.7;75.8;C;1;84;77.8;77.5;1;1;1;64;75;84;71;97;19;20;86;82;74;Low Risk;Low Risk;Medium Risk;Worsened
+S046;Student_46;Data Structures;DS-B;2.4;4.8;20;16;14.7;27.7;11.6;55.4;67;D;1;57.3;60.6;63.7;0;0;0;61;70;70;78;47;35;39;65;62;65;Medium Risk;Medium Risk;Medium Risk;No Change
+S047;Student_47;Data Structures;DS-B;7.4;5.3;17.6;22;26.3;27.9;15.7;55.8;71.5;C;1;71.7;79.9;74.6;1;1;1;68;87;78;72;70;14;18;77;78;72;Medium Risk;Medium Risk;Medium Risk;No Change
+S048;Student_48;Data Structures;DS-B;8.6;7.2;14.1;28.2;21;40;15.8;80;95.8;A;1;76.2;83.2;91.8;1;1;1;100;97;100;85;100;0;3;84;79;98;Low Risk;Medium Risk;Low Risk;Mixed
+S049;Student_49;Data Structures;DS-A;8;4.8;16.5;24.1;22.7;27.3;15.2;54.6;69.8;D;1;70.2;79.5;70.3;1;1;1;73;72;68;63;73;23;31;76;71;72;Medium Risk;Medium Risk;Medium Risk;No Change
+S050;Student_50;Data Structures;DS-B;7.3;10;15;27.4;27.2;37;17.4;74.1;91.4;A;1;82.7;88.2;92;1;1;1;77;91;85;98;85;6;14;79;89;91;Medium Risk;Low Risk;Low Risk;Improved
+S051;Student_51;Data Structures;DS-A;5.3;6.1;20;17.9;30;34.1;15.9;68.3;84.1;B;1;71.3;78;89.3;1;1;1;87;69;77;77;82;19;23;79;85;76;Medium Risk;Low Risk;Medium Risk;Mixed
+S052;Student_52;Data Structures;DS-A;6.1;6;20;18.6;13.8;33.9;12.9;67.8;80.7;B;1;73.7;64.5;74.2;1;0;1;78;80;74;83;76;34;8;80;69;76;Low Risk;Medium Risk;Medium Risk;Worsened
+S053;Student_53;Data Structures;DS-B;9.4;8.8;20;20.7;30;25;17.8;50;67.7;D;1;94;83.1;72.7;1;1;1;62;68;67;68;62;41;17;84;87;65;Low Risk;Low Risk;Medium Risk;Worsened
+S054;Student_54;Data Structures;DS-B;10;10;18.2;25.9;27.3;37.3;18.3;74.5;92.8;A;1;97;88.5;92.6;1;1;1;98;100;96;86;100;6;20;94;96;92;Low Risk;Low Risk;Low Risk;No Change
+S055;Student_55;Data Structures;DS-B;8.2;10;14.8;24.8;22.2;40;16;80;96;A;1;85.3;78.7;92.9;1;1;1;100;94;98;100;100;4;7;87;86;94;Low Risk;Low Risk;Low Risk;No Change
+S056;Student_56;Data Structures;DS-B;6.3;6.8;20;22.9;30;31.6;17.2;63.2;80.4;B;1;77;87.1;84.7;1;1;1;88;83;87;87;73;10;12;84;87;80;Low Risk;Low Risk;Low Risk;No Change
+S057;Student_57;Data Structures;DS-A;8.2;8.6;20;26.1;25.1;24.6;17.6;49.3;66.9;D;1;89.3;88.5;67.5;1;1;0;60;67;67;47;76;33;49;76;84;70;Medium Risk;Low Risk;Medium Risk;Mixed
+S058;Student_58;Data Structures;DS-B;7.5;8.4;19.3;22.2;30;21.7;17.5;43.3;60.8;D;1;85.2;85.2;66.7;1;1;0;58;51;72;63;64;36;40;76;83;64;Medium Risk;Low Risk;Medium Risk;Mixed
+S059;Student_59;Data Structures;DS-A;9.1;9.3;16.9;22.9;20.4;33.5;15.7;67.1;82.8;B;1;89.5;75.5;79.5;1;1;1;85;92;81;76;91;20;29;85;83;81;Low Risk;Low Risk;Low Risk;No Change
+S060;Student_60;Data Structures;DS-A;8.2;8.6;20;29.5;18.8;29.8;17;59.6;76.7;C;1;89.3;88.9;71.3;1;1;1;85;83;98;85;83;15;24;89;81;86;Low Risk;Low Risk;Low Risk;No Change
