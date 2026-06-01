@@ -1,4 +1,4 @@
-# EduTrack: An Intelligent QA Dashboard & Student Performance Digital Twin 🎓🤖
+# EduTrack: An Intelligent QA Dashboard & Student Performance Digital Twin 
 
 **Project ID:** UQU-DS-2025-F13  
 **Institution:** Umm Al-Qura University | College of Computing | Data Science Department  
