@@ -19,7 +19,7 @@ const cloDefinitions = {
 
 // الحسابات الافتراضية
 const credentials = {
-    teacher: { user: "maram@neomine.edu", pass: "1234" }
+    teacher: { user: "maram@uqu.edu", pass: "1234" }
 };
 
 window.onload = function() {
