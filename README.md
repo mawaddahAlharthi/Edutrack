@@ -8,7 +8,7 @@
 
 ## 🌐 Live Production Link
 Access the deployed, live interactive platform here:  
-👉 **[https://9869fd83.edutrack-3nx.pages.dev/](https://9869fd83.edutrack-3nx.pages.dev/)**
+👉 **[[https://9869fd83.edutrack-3nx.pages.dev/](https://9869fd83.edutrack-3nx.pages.dev/)](https://edutrack-3nx.pages.dev/)**
 
 ---
 
