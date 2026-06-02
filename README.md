@@ -8,8 +8,7 @@
 
 ## 🌐 Live Production Link
 Access the deployed, live interactive platform here:  
-👉 **[[(https://edutrack-3nx.pages.dev/https://9869fd83.edutrack-3nx.pages.dev/))]](https://edutrack-3nx.pages.dev/)**
----
+👉 **[https://edutrack-3nx.pages.dev/](https://edutrack-3nx.pages.dev/)**---
 
 ## 📝 Project Overview
 **EduTrack** is an intelligent, automated administrative and pedagogical decision-support system designed for Quality Assurance (QA) committees and faculty members. By applying the **Digital Twin** concept to academic data, the platform bridges the "interpretability gap" in educational analytics. It shifts institutional evaluation from static KPI tracking to proactive, AI-driven root-cause analysis and individualized student risk interventions.
