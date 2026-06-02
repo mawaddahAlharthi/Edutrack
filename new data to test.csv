@@ -1,0 +1,61 @@
+StudentID;StudentName;Course;Section;Quiz1_10;Quiz2_10;Assignment_20;Project_30;Midterm_30;Final_40;Coursework_20;FinalWeighted_80;Total_100;GradeLetter;PassFlag;CLO1_Score_100;CLO2_Score_100;CLO3_Score_100;CLO1_Achieved_70plus;CLO2_Achieved_70plus;CLO3_Achieved_70plus;Attendance_Rate_P1;Attendance_Rate_P2;Attendance_Rate_P3;Engagement_P1;Engagement_P2;Delay_P1;Delay_P2;Period1_Score;Period2_Score;Period3_Score;Risk_P1;Risk_P2;Risk_P3;Risk_Response
+S001;Student_1;Data Engineering;DE-B;8.2;10;16.6;27.9;30;30.4;18.5;60.7;79.3;C;1;88.3;93.1;82.5;1;1;1;83;75;86;86;71;12;26;83;88;83;Low Risk;Low Risk;Low Risk;No Change
+S002;Student_2;Data Engineering;DE-A;8.5;9.4;20;23.5;18.3;13.7;15.9;27.3;43.3;F;0;93;77.5;41.5;1;1;0;42;42;40;35;42;51;72;71;70;49;Medium Risk;Medium Risk;High Risk;Worsened
+S003;Student_3;Data Engineering;DE-B;7.7;4.9;13.2;25;21.5;31.3;14.5;62.7;77.1;C;1;64;77;76.5;0;1;1;82;68;88;66;82;30;22;72;67;82;Medium Risk;Medium Risk;Low Risk;Improved
+S004;Student_4;Data Engineering;DE-A;7.4;8.5;16.5;28.9;30;32.6;18.2;65.2;83.4;B;1;80.5;94.8;86.5;1;1;1;96;74;72;88;92;23;21;84;88;84;Low Risk;Low Risk;Low Risk;No Change
+S005;Student_5;Data Engineering;DE-B;5.1;8.1;20;28.7;30;13.6;18.4;27.2;45.6;F;0;77.3;97.6;52;1;1;0;44;52;50;43;34;54;61;63;79;56;Medium Risk;Medium Risk;High Risk;Worsened
+S006;Student_6;Data Engineering;DE-B;9;6.9;19.2;21.3;24.1;32.6;16.1;65.2;81.3;B;1;85;78.1;81.2;1;1;1;79;92;99;88;78;20;15;89;83;82;Low Risk;Low Risk;Low Risk;No Change
+S007;Student_7;Data Engineering;DE-B;7.8;6.4;11.7;20.4;30;30.4;15.3;60.8;76.1;C;1;66.8;75;82.5;0;1;1;89;76;68;81;71;37;26;75;77;72;Medium Risk;Medium Risk;Medium Risk;No Change
+S008;Student_8;Data Engineering;DE-B;10;10;19.7;24.4;20.4;25.7;16.9;51.4;68.3;D;1;99.5;80.8;65.3;1;1;0;74;76;64;68;62;26;32;88;81;69;Low Risk;Low Risk;Medium Risk;Worsened
+S009;Student_9;Data Engineering;DE-A;7.3;7;15.1;22.3;26;37;15.5;74;89.6;B;1;72.8;77.9;90.9;1;1;1;86;92;90;81;100;16;11;78;84;87;Medium Risk;Low Risk;Low Risk;Improved
+S010;Student_10;Data Engineering;DE-B;4.2;5.9;18.5;13.5;23;40;13;80;93;A;1;64.5;62.3;93.6;0;0;1;97;88;89;78;97;5;0;75;81;81;Medium Risk;Low Risk;Low Risk;Improved
+S011;Student_11;Data Engineering;DE-A;7.8;9.6;18.2;29.4;14.5;28.1;15.9;56.2;72.1;C;1;88.3;83.2;64.3;1;1;0;68;75;60;68;59;26;28;78;72;77;Medium Risk;Medium Risk;Medium Risk;No Change
+S012;Student_12;Data Engineering;DE-B;10;8.3;20;23.1;25.5;33.8;17.4;67.7;85.1;B;1;94.3;83.4;84.6;1;1;1;81;97;86;94;94;26;20;95;91;83;Low Risk;Low Risk;Low Risk;No Change
+S013;Student_13;Data Engineering;DE-A;7.2;7.8;17.5;26.7;29.6;26.8;17.8;53.5;71.3;C;1;79.2;91.4;75.6;1;1;1;73;71;63;73;93;37;43;77;87;73;Medium Risk;Low Risk;Medium Risk;Mixed
+S014;Student_14;Data Engineering;DE-B;6.2;10;9.6;17.1;23.1;25.7;13.2;51.4;64.6;D;1;70;60.8;67.7;1;0;0;49;77;68;52;75;44;45;53;76;63;High Risk;Medium Risk;Medium Risk;Improved
+S015;Student_15;Data Engineering;DE-A;5.6;9.2;11.5;29.4;23.6;32.6;15.9;65.3;81.1;B;1;68.5;85.4;80.7;0;1;1;67;60;74;83;66;32;40;64;72;85;Medium Risk;Medium Risk;Low Risk;Improved
+S016;Student_16;Data Engineering;DE-A;5.9;8.9;19.9;20.1;30;36.2;17;72.4;89.3;B;1;82.5;81.9;93.1;1;1;1;85;96;100;93;84;11;3;83;95;85;Low Risk;Low Risk;Low Risk;No Change
+S017;Student_17;Data Engineering;DE-A;7.4;10;16;22.5;16.5;27.5;14.5;55;69.5;D;1;84.7;70.5;65;1;1;0;61;70;63;61;82;37;39;71;75;69;Medium Risk;Medium Risk;Medium Risk;No Change
+S018;Student_18;Data Engineering;DE-A;5.6;8.7;20;16;15;14.3;13.1;28.6;41.7;F;0;81;60.9;39.6;1;0;0;44;40;40;43;35;55;60;64;64;42;Medium Risk;Medium Risk;High Risk;Worsened
+S019;Student_19;Data Engineering;DE-B;10;6.5;18.1;22.2;20.1;36.7;15.4;73.4;88.7;B;1;85.2;75.1;85;1;1;1;81;89;95;89;93;15;33;91;79;87;Low Risk;Medium Risk;Low Risk;Mixed
+S020;Student_20;Data Engineering;DE-A;7.4;7.1;14;21.9;16.8;19.2;13.4;38.5;51.9;F;0;71.7;67.8;50.2;1;0;0;41;40;42;40;60;47;40;59;60;54;High Risk;Medium Risk;High Risk;Mixed
+S021;Student_21;Data Engineering;DE-A;8.2;6.7;20;22.1;30;33;17.4;66;83.3;B;1;83;85.6;87.3;1;1;1;95;82;85;87;74;18;8;91;87;80;Low Risk;Low Risk;Low Risk;No Change
+S022;Student_22;Data Engineering;DE-A;10;8.5;13.8;25.2;25.9;40;16.7;80;96.7;A;1;84.7;81.9;96.3;1;1;1;95;100;100;100;96;9;0;90;86;95;Low Risk;Low Risk;Low Risk;No Change
+S023;Student_23;Data Engineering;DE-B;10;5.3;8.8;23.3;18.8;31.9;13.2;63.7;77;C;1;65.7;67.5;75.1;0;0;1;78;89;64;88;45;15;2;76;58;76;Medium Risk;High Risk;Medium Risk;Mixed
+S024;Student_24;Data Engineering;DE-B;7.6;3.4;20;27.9;20.3;22.5;15.8;45;60.8;D;1;70;87.4;59.4;1;1;0;49;57;62;71;51;60;34;77;63;68;Medium Risk;Medium Risk;Medium Risk;No Change
+S025;Student_25;Data Engineering;DE-A;8.7;8.2;9.4;20.7;30;20.3;15.4;40.6;56;F;0;72;73.5;64.2;1;1;0;52;50;58;42;53;34;36;59;71;58;High Risk;Medium Risk;High Risk;Mixed
+S026;Student_26;Data Engineering;DE-A;9.5;4.7;19.5;18;20.3;40;14.4;80;94.4;A;1;79.8;68.9;91.2;1;0;1;95;90;100;85;82;0;7;94;75;88;Low Risk;Medium Risk;Low Risk;Mixed
+S027;Student_27;Data Engineering;DE-B;7.6;3.1;20;22.9;19.4;31.9;14.6;63.7;78.3;C;1;69;77.5;75.6;0;1;1;69;86;68;83;95;33;25;83;73;76;Low Risk;Medium Risk;Medium Risk;Worsened
+S028;Student_28;Data Engineering;DE-B;4.4;8.9;17.6;26.1;25.8;36.3;16.6;72.6;89.2;B;1;73.7;86.9;89.5;1;1;1;92;92;79;94;75;19;30;77;86;87;Medium Risk;Low Risk;Low Risk;Improved
+S029;Student_29;Data Engineering;DE-A;9.3;6.2;10.3;29.2;27.8;39.4;16.6;78.8;95.4;A;1;68.8;87.7;96.9;0;1;1;91;91;100;100;91;11;14;82;78;98;Low Risk;Medium Risk;Low Risk;Mixed
+S030;Student_30;Data Engineering;DE-A;9.8;9.2;20;27.1;25.3;31.6;18.3;63.2;81.5;B;1;96.7;90.5;80.5;1;1;1;79;86;84;100;83;25;13;95;89;83;Low Risk;Low Risk;Low Risk;No Change
+S031;Student_31;Data Engineering;DE-B;8.8;6.7;11.2;14.2;18.5;29.5;11.9;59.1;71;C;1;70.3;52.8;70.5;1;0;1;66;72;73;77;85;29;20;72;67;66;Medium Risk;Medium Risk;Medium Risk;No Change
+S032;Student_32;Data Engineering;DE-A;6.2;5.2;11.6;24.9;17;24.4;13;48.8;61.8;D;1;57.3;71.3;59.8;0;1;0;77;70;65;73;47;29;43;66;57;68;Medium Risk;High Risk;Medium Risk;Mixed
+S033;Student_33;Data Engineering;DE-A;7.6;4.9;15.6;30;27.6;7.3;17.1;14.7;31.8;F;0;67.7;93.8;38.4;0;1;0;40;40;40;41;43;69;55;62;65;47;Medium Risk;Medium Risk;High Risk;Worsened
+S034;Student_34;Data Engineering;DE-B;6.8;6.7;20;23.3;23.7;19.9;16.1;39.7;55.8;F;0;78.3;82.1;57.7;1;1;0;47;53;58;62;56;37;63;72;73;60;Medium Risk;Medium Risk;Medium Risk;No Change
+S035;Student_35;Data Engineering;DE-B;7.4;7.3;18.2;20.4;14.2;31.4;13.5;62.9;76.4;C;1;79.3;66.5;70;1;0;1;83;73;79;73;67;33;35;81;68;75;Low Risk;Medium Risk;Medium Risk;Worsened
+S036;Student_36;Data Engineering;DE-A;10;5.9;20;24.5;30;30.6;18.1;61.2;79.3;C;1;86.3;90;82.9;1;1;1;70;68;74;87;84;19;16;91;85;78;Low Risk;Low Risk;Medium Risk;Worsened
+S037;Student_37;Data Engineering;DE-A;10;7.3;15.2;20.5;28.7;35.2;16.3;70.5;86.8;B;1;83;77.2;90.1;1;1;1;88;89;100;79;89;5;0;86;85;84;Low Risk;Low Risk;Low Risk;No Change
+S038;Student_38;Data Engineering;DE-B;9.3;4.2;16.3;26.2;22.6;31;15.7;62;77.7;C;1;72.2;83;76.9;1;1;1;62;80;81;75;72;19;36;80;70;81;Low Risk;Medium Risk;Low Risk;Mixed
+S039;Student_39;Data Engineering;DE-B;9.1;8;12.5;22.9;22.4;33.3;15;66.5;81.5;B;1;77.8;73.4;80.9;1;1;1;71;82;72;77;82;23;17;76;76;79;Medium Risk;Medium Risk;Medium Risk;No Change
+S040;Student_40;Data Engineering;DE-A;9.4;3.5;15.7;30;25.4;38.3;16.8;76.6;93.4;A;1;69.2;91.9;92.7;0;1;1;95;92;99;94;90;1;19;90;75;98;Low Risk;Medium Risk;Low Risk;Mixed
+S041;Student_41;Data Engineering;DE-B;8;7.5;19.4;25.5;19.9;24.9;16;49.8;65.9;D;1;84;82.1;63.4;1;1;0;72;55;58;89;67;26;18;85;73;68;Low Risk;Medium Risk;Medium Risk;Worsened
+S042;Student_42;Data Engineering;DE-B;7.8;9.7;15.8;19.4;15.9;29.7;13.7;59.4;73.1;C;1;84.7;64.1;68.5;1;0;0;74;70;79;54;80;29;21;73;74;72;Medium Risk;Medium Risk;Medium Risk;No Change
+S043;Student_43;Data Engineering;DE-A;6.7;10;18.9;26;25.9;19.1;17.5;38.3;55.8;F;0;87.2;88;58.3;1;1;0;55;53;65;63;72;47;44;72;84;63;Medium Risk;Low Risk;Medium Risk;Mixed
+S044;Student_44;Data Engineering;DE-A;7.9;10;14.7;27.7;15.4;39.8;15.1;79.6;94.7;A;1;84.2;77.7;86.4;1;1;1;92;88;88;79;82;0;6;80;76;95;Low Risk;Medium Risk;Low Risk;Mixed
+S045;Student_45;Data Engineering;DE-A;10;4.1;14.6;20.2;26.3;32.3;15;64.6;79.7;C;1;71.3;73.9;82.6;1;1;1;68;78;87;75;100;16;16;80;76;78;Low Risk;Medium Risk;Medium Risk;Worsened
+S046;Student_46;Data Engineering;DE-B;9.7;9.9;17.2;20.9;15.4;35.9;14.6;71.8;86.4;B;1;94;67.6;79.3;1;0;1;81;90;90;97;67;16;20;90;76;84;Low Risk;Medium Risk;Low Risk;Mixed
+S047;Student_47;Data Engineering;DE-A;7.3;10;16.2;11.5;23.4;40;13.7;80;93.7;A;1;84.7;56.9;94;1;0;1;90;100;100;94;92;0;0;83;88;82;Low Risk;Low Risk;Low Risk;No Change
+S048;Student_48;Data Engineering;DE-A;7.1;10;19.4;27.5;23.2;40;17.4;80;97.4;A;1;89.3;88.7;93.8;1;1;1;100;99;100;87;100;0;1;88;92;98;Low Risk;Low Risk;Low Risk;No Change
+S049;Student_49;Data Engineering;DE-A;6.3;5.7;17.7;20.1;30;31.5;15.9;63;79;C;1;69.5;79.9;84.5;0;1;1;82;81;77;72;82;14;22;76;84;75;Medium Risk;Low Risk;Medium Risk;Mixed
+S050;Student_50;Data Engineering;DE-A;8.7;9;20;12.4;17.6;38.3;13.6;76.6;90.2;A;1;92.3;56.7;85.6;1;0;1;76;90;84;97;84;8;15;91;82;77;Low Risk;Low Risk;Medium Risk;Worsened
+S051;Student_51;Data Engineering;DE-B;8.8;10;16.1;14.2;15.5;20.5;12.9;41.1;54;F;0;89.5;54.5;51.4;1;0;0;57;40;47;47;52;49;53;71;65;49;Medium Risk;Medium Risk;High Risk;Worsened
+S052;Student_52;Data Engineering;DE-B;5.1;4.3;16.1;21.9;20.1;35.5;13.5;70.9;84.4;B;1;58.2;72.7;82.8;0;1;1;81;84;78;87;79;30;4;73;69;82;Medium Risk;Medium Risk;Low Risk;Improved
+S053;Student_53;Data Engineering;DE-B;9;9.2;12.8;26.8;17.3;33.1;15;66.2;81.2;B;1;82;76.1;75.9;1;1;1;76;82;81;82;75;27;3;78;72;84;Medium Risk;Medium Risk;Low Risk;Improved
+S054;Student_54;Data Engineering;DE-B;6.9;10;17.1;22.6;20.5;19.1;15.4;38.1;53.5;F;0;84.8;75.3;53.4;1;1;0;58;73;56;47;62;45;59;67;78;58;Medium Risk;Medium Risk;High Risk;Worsened
+S055;Student_55;Data Engineering;DE-A;10;6.3;19.7;25.4;26.5;40;17.6;80;97.6;A;1;87.2;88.2;96.8;1;1;1;100;96;100;100;100;2;6;100;88;95;Low Risk;Low Risk;Low Risk;No Change
+S056;Student_56;Data Engineering;DE-B;8.3;9.5;14;17.5;28.6;26.4;15.6;52.7;68.3;D;1;82.7;70.5;74;1;1;1;76;71;75;75;61;22;24;76;81;66;Medium Risk;Low Risk;Medium Risk;Mixed
+S057;Student_57;Data Engineering;DE-A;10;5.3;16.8;16.3;30;37.5;15.7;74.9;90.6;A;1;79;72.2;95.5;1;1;1;84;90;91;70;100;9;25;86;86;81;Low Risk;Low Risk;Low Risk;No Change
+S058;Student_58;Data Engineering;DE-B;7.1;6;19.9;27.4;19.6;28.6;16;57.3;73.3;C;1;76.8;85.7;69.8;1;1;0;71;64;85;75;76;24;28;80;72;80;Low Risk;Medium Risk;Low Risk;Mixed
+S059;Student_59;Data Engineering;DE-A;7.4;6;16.5;25.5;30;39.9;17.1;79.9;97;A;1;72.2;88.6;99.8;1;1;1;100;100;95;90;100;6;15;85;88;94;Low Risk;Low Risk;Low Risk;No Change
+S060;Student_60;Data Engineering;DE-A;8.6;8.5;14.9;22.8;30;40;17;80;97;A;1;81.8;82.3;100;1;1;1;100;100;100;100;100;0;4;88;92;93;Low Risk;Low Risk;Low Risk;No Change
