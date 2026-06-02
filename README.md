@@ -17,6 +17,20 @@ Access the deployed, live interactive platform here:
 
 ---
 
+## 📊 Testing with Sample Data
+
+To make it easy for examiners, evaluators, and faculty members to test the live platform's core functionalities, an anonymized operational test dataset is provided directly in this repository.
+
+* **Test File Name:** `new data to test.csv`
+* **How to Test:**
+  1. Download the `new data to test.csv` file from this repository to your local machine.
+  2. Open the **[Live Dashboard Production Link](https://9869fd83.edutrack-3nx.pages.dev/)** in your browser.
+  3. Click on the **"Get Started"** or **"Login"** button to enter the main administration panel.
+  4. Use the **"Import Data"** panel on the interface to upload the downloaded `new data to test.csv` file.
+  5. The dashboard will instantly process the file client-side, displaying live AI diagnostics, student-at-risk predictions, predictive KPI charts, and real-time Course Learning Outcomes (CLO) mastery distributions.
+
+---
+
 ## ⚙️ Step-by-Step Setup & Run Instructions
 
 To review the analytical model pipelines or run the interactive dashboard interface locally, follow these precise steps:
@@ -37,7 +51,7 @@ Simply locate the `index.html` file in the main root directory and double-click 
 * **Alternative for Developers:** If you are using VS Code, right-click `index.html` and select **"Open with Live Server"** to spin up a local development environment.
 
 3. **Validating with Sample Data:**
-Once the dashboard loads, click **"Get Started"** to bypass the interactive landing interface. Upload the provided anonymized institutional datasets (`data_ds.csv` or `data_de.csv`) directly into the data import panel to view live AI recommendations, dynamic KPI charts, and CLO mastery ratios.
+Once the dashboard loads, click **"Get Started"** to bypass the interactive landing interface. Upload the provided anonymized institutional datasets (`data_ds.csv`, `data_de.csv`, or the new `new data to test.csv`) directly into the data import panel to view live AI recommendations, dynamic KPI charts, and CLO mastery ratios.
 
 ### 2. Setting Up the Machine Learning Experimental Environment (Python Backend)
 
@@ -95,6 +109,7 @@ Evaluates individual student data attributes (attendance rates, assignment marks
 ├── logic.js                    # Core expert engine, Chart.js mapping, & rule calculations
 ├── data_ds.csv                 # Anonymized Data Structures course cohort dataset
 ├── data_de.csv                 # Anonymized Data Engineering course cohort dataset
+├── new data to test.csv        # Synthetic test dataset for instant system evaluation
 ├── requirements.txt            # Operational dependencies for predictive validation
 └── README.md                   # System configuration & setup documentation
 
@@ -107,7 +122,5 @@ Evaluates individual student data attributes (attendance rates, assignment marks
 1. **Automated Enterprise Ingestion:** Establishing direct API pipelines with institutional systems (e.g., Banner and Blackboard) to replace manual CSV workflows.
 2. **Role-Based Access Control (RBAC):** Deploying precise data access tiers scoped distinctly for Instructors, Academic Advisors, and Deans.
 3. **Continuous Machine Learning Retraining Cycle:** Integrating a backend pipeline where finalized end-of-semester cohort outcomes automatically recalibrate ML model weights to dynamically scale predictive accuracy over time.
-
-```
 
 ```
