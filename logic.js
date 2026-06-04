@@ -47,8 +47,7 @@ function loadWelcomeScreen() {
             <canvas id="neuralCanvas"></canvas>
             
             <div class="fade-in" style="text-align: center; z-index: 10; position: relative;">
-               <img src="assets/2.png" alt="EduTrack Logo" style="width: 180px; margin-bottom: 25px; filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.4)); border-radius: 12px;">
-                
+                <img src="assets/2.png" alt="EduTrack Logo" style="width: 180px; margin-bottom: 25px; filter: drop-shadow(0 0 15px rgba(56, 189, 248, 0.5));">                
                 <h1 style="font-size: 5.5rem; font-weight: 800; letter-spacing: -3px; margin-bottom: 10px; color: #fff;">
                     Edu<span style="color:var(--accent)">Track</span>
                 </h1>
