@@ -23,8 +23,8 @@ const credentials = {
 };
 
 window.onload = function() {
-    loadCSV('data_ds.csv', 'ds');
-    loadCSV('data_de.csv', 'de');
+    loadCSV('data/data_ds.csv', 'ds');
+    loadCSV('data/data_de.csv', 'de');
     loadWelcomeScreen();
 };
 
